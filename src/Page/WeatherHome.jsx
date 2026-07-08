@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Searchbar from '../Components/Searchbar'
 
-const WeatherHome = ({ setInput }) => {
+const WeatherHome = ({ setInput, Data }) => {
+  useEffect(() => { alert("Hello") }, [Data])
   return (
-    <div className='w-[390px] h-[844px] bg-linear-to-r from-gray-900 to-gray-700 mx-auto rounded-3xl shadow-2xl overflow-hidden'>
+    <div className='w-[390px] h-[844px] bg-linear-to-r from-gray-900 to-gray-700 mx-auto lg:rounded-3xl md:rounded-3xl  shadow-2xl overflow-hidden'>
 
       <div className='bg-radial h-full w-full flex flex-col '>
 

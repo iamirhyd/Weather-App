@@ -5,7 +5,7 @@ const App = () => {
   const [input, setInput] = useState("");
   return (
     <div className='bg-gray-400 min-h-screen flex items-center justify-center'>
-      <WeatherHome setInput={setInput} />
+      <WeatherHome setInput={setInput} Data={input} />
     </div>
   )
 }
