@@ -12,7 +12,7 @@ const WeatherDataCard = ({ iconCode, setInput, weatherData }) => {
 
         <div className='h-[60%] flex flex-col justify-center items-center'>
           <img src={`https://openweathermap.org/img/wn/${iconCode}@4x.png`} alt="" className="w-64 h-auto object-cover " />
-          <p className='text-white text-5xl font-bold '>{weatherData.title}</p>
+          <p className='text-white text-4xl font-bold '>{weatherData.title}</p>
           <p className='text-white text-3xl font-medium py-5'>{weatherData.temp}°C</p>
         </div>
 
