@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/OpenWeather-FF6B00?style=for-the-badge&logo=openweather&logoColor=white" />
   </div>
 </div>
----
+
 
 ## ✨ قابلیت‌های کلیدی / Key Features
 
