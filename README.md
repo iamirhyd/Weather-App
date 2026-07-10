@@ -1,16 +1,38 @@
-# React + Vite
+<div align="center">
+  <h1>🌤️ برنامهٔ نمایش وضعیت آب‌وهوا</h1>
+  
+  <div>
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+    <img src="https://img.shields.io/badge/OpenWeather-FF6B00?style=for-the-badge&logo=openweather&logoColor=white" />
+  </div>
+</div>
+---
+## ✨ قابلیت‌های کلیدی / Key Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔍 **جستجوی شهر** / Search for any city worldwide  
+💧 **سنجش رطوبت** / Humidity measurement  
+🌬️ **اطلاعات باد** / Wind speed & direction  
+🎨 **آیکون‌های پویا** / Dynamic weather icons (Sunny, Cloudy, Rainy, etc.)  
+📱 **طراحی پاسخگو** / Fully responsive for mobile & desktop  
+🌡️ **نمایش دما** / Temperature display with Feels Like  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 📸 پیش‌نمایش / Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<div align="center">
+  <img src="./public/Preview.png" alt="Weather App Preview" width />
+</div>
+
+---
+
+## 🛠️ فناوری‌های به‌کاررفته / Technologies
+
+⚛️ **React 18** - کتابخانه اصلی / Core library  
+🎨 **TailwindCSS** - استایل‌دهی / Styling  
+🌤️ **OpenWeather API** - دریافت داده‌های هواشناسی / Weather data provider  
+📦 **JavaScript (ES6+)** - منطق برنامه / Application logic
