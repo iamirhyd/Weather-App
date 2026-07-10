@@ -8,6 +8,7 @@
   </div>
 </div>
 ---
+
 ## ✨ قابلیت‌های کلیدی / Key Features
 
 🔍 **جستجوی شهر** / Search for any city worldwide  
