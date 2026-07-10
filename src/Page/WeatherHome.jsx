@@ -22,6 +22,7 @@ const WeatherHome = ({ setInput, Data }) => {
       })
       .catch(error => {
         console.error(error);
+        alert("enter a valid city...");
       });
   }, [Data]);
   if (!weatherData) {
